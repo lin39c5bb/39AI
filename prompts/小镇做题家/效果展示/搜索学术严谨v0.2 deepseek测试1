@@ -1,0 +1,372 @@
+{
+  "task": {
+    "description": "Search, summarize and analyze a given topic with rigorous academic standards",
+    "topic": "比较onlyoffice和wps office",
+    "action_chain": ["search", "evaluate", "analyze", "refine", "conclude"]
+  },
+  "output_requirements": {
+    "content_rules": {
+      "must_base_on_searched_content": true,
+      "forbid_speculation": true,
+      "source_attribution": "when_available"
+    },
+    "structure": {
+      "strict_sequence": [
+        "1_initial_understanding",
+        "2_key_concepts_definition",
+        "3_problem_approach",
+        "4_search_summary",
+        "5_deep_analysis",
+        "6_credibility_evaluation",
+        "7_analysis_correction",
+        "8_conclusion"
+      ],
+      "hierarchical_display": true
+    },
+    "translation": {
+      "mandatory": true,
+      "target_language": "zh",
+      "position": "after_english_version"
+    }
+  }
+
+  # Comparative Analysis of OnlyOffice and WPS Office
+
+## 1. Initial Understanding
+
+Office productivity suites have become essential tools for both personal and professional use, with Microsoft Office historically dominating the market. However, alternatives like OnlyOffice and WPS Office have emerged as competitive options, each offering unique features and advantages. This analysis aims to comprehensively compare these two office suites across multiple dimensions including features, compatibility, pricing, security, and user experience.
+
+OnlyOffice (formerly TeamLab) is a free and open-source office suite developed by Ascensio System SIA, boasting over 15 million users worldwide as of 2025. It positions itself as a privacy-focused alternative with strong collaboration capabilities. WPS Office, developed by Chinese company Kingsoft, has gained significant traction particularly in Asian markets, with over 200 million users globally. Both suites offer alternatives to traditional office software with different approaches to functionality and business models.
+
+## 2. Key Concepts Definition
+
+**OnlyOffice**: An open-source office suite that provides document editing, spreadsheet management, presentation creation, PDF editing, and form handling capabilities. It emphasizes real-time collaboration, cross-platform compatibility, and enterprise integration options.
+
+**WPS Office**: A proprietary office suite developed by Kingsoft that offers word processing, spreadsheets, presentations, and PDF tools. It's known for its high compatibility with Microsoft Office formats and strong localization for Chinese users.
+
+**Document Collaboration**: The ability for multiple users to simultaneously edit and comment on documents in real-time or asynchronously.
+
+**Cross-platform Support**: Software availability across different operating systems (Windows, macOS, Linux, Android, iOS) and devices.
+
+**Open-source**: Software whose source code is made available for modification or enhancement by anyone, typically under specific licenses like AGPL (used by OnlyOffice).
+
+## 3. Problem Approach
+
+This analysis will systematically compare OnlyOffice and WPS Office across several critical dimensions:
+
+1. **Core Features and Functionality**: Examining document editing capabilities, supported file formats, and unique tools
+2. **Collaboration and Cloud Integration**: Evaluating real-time collaboration features and cloud storage options
+3. **Compatibility and Performance**: Assessing compatibility with Microsoft Office formats and system requirements
+4. **Pricing and Business Models**: Comparing free vs. premium offerings and enterprise solutions
+5. **Security and Privacy**: Analyzing security features and vulnerability history
+6. **User Experience and Localization**: Reviewing interface design and language support
+7. **Platform Availability**: Checking operating system and device support
+
+The comparison will draw from technical specifications, user reviews, and feature analyses available in the search results.
+
+## 4. Search Summary
+
+The search results provide comprehensive information about both office suites:
+
+**OnlyOffice**:
+- Free and open-source under AGPL 3.0 license
+- Strong Microsoft Office format compatibility (DOCX, XLSX, PPTX)
+- Real-time collaboration with version history and commenting
+- Available for Windows, macOS, Linux, Android, iOS
+- Includes document management, CRM, and project tools in workspace version
+- Regular updates, with version 8.3 adding PDF stamps and Apple iWork support
+- No advertisements in any version
+
+**WPS Office**:
+- Freemium model with paid professional versions
+- Excellent Microsoft Office compatibility
+- Cloud synchronization and team collaboration features
+- Available for Windows, macOS, Linux, Android, iOS
+- Includes extensive template library (Dock templates)
+- Recent security vulnerabilities in international versions
+- Contains advertisements in free version
+
+## 5. Deep Analysis
+
+### 5.1 Core Features and Functionality
+
+**OnlyOffice** provides a comprehensive set of office tools including:
+- Advanced document editor with SmartArt support (added in v7.3)
+- Spreadsheet editor with pivot tables and formula wizard
+- Presentation tool with animation support and presenter mode
+- PDF editor with form filling and digital signature capabilities
+- Form creator with role-based field assignment
+
+Unique features include:
+- Plugin system for extending functionality
+- Document comparison and merging
+- Built-in chat for collaborative editing
+- Self-hosting options for enterprises
+
+**WPS Office** offers:
+- Word processor with resume assistant
+- Spreadsheet with extensive formula support
+- Presentation tool with "Super PPT" auto-formatting
+- PDF reader and basic editor
+- Photo scanning and OCR functionality
+
+Standout features include:
+- Dock template library with 800,000+ templates
+- Application center with 40+ office tools
+- WPS Forms for information collection
+- Strong Chinese language support and localization
+
+### 5.2 Collaboration and Cloud Integration
+
+**OnlyOffice** excels in collaboration with:
+- Real-time co-editing with paragraph locking
+- Version history and change tracking
+- Integration with Nextcloud, ownCloud, Seafile
+- Workspace version for team management
+- Public rooms for external sharing
+
+**WPS Office** provides:
+- Cloud document backup and sync
+- Team folder sharing
+- Real-time collaboration (more limited than OnlyOffice)
+- Integration with local Chinese cloud services
+
+### 5.3 Compatibility and Performance
+
+**OnlyOffice**:
+- Native compatibility with OOXML formats
+- Supports 50+ file formats including Apple iWork and Hancom Office
+- HTML5 Canvas-based editor for online use
+- Lightweight desktop editors
+
+**WPS Office**:
+- Excellent Microsoft Office format support
+- Handles DOC, XLS better than many alternatives
+- Small installation size
+- Performance issues reported with large files
+
+### 5.4 Pricing and Business Models
+
+**OnlyOffice**:
+- Community Edition: completely free
+- Enterprise Edition: $5/user/month (cloud) or $500+ (self-hosted)
+- No feature limitations between free and paid
+- No advertisements
+
+**WPS Office**:
+- Free version with basic features and ads
+- Professional version: ~$110/year
+- Professional Plus version: ~$192/year
+- Enterprise licensing available
+- Template marketplace with paid options
+
+### 5.5 Security and Privacy
+
+**OnlyOffice**:
+- Open-source allows code inspection
+- GDPR compliant
+- Offers document encryption and password protection
+- JWT token protection for documents
+- Watermarking and digital signatures
+
+**WPS Office**:
+- Proprietary software
+- Recent high-severity vulnerabilities (CVE-2024-7262, CVE-2024-7263)
+- International version more vulnerable than Chinese version
+- Basic security features but less transparency
+
+### 5.6 User Experience and Localization
+
+**OnlyOffice**:
+- Clean, tabbed interface
+- Initially may feel unfamiliar to MS Office users
+- Improving RTL (right-to-left) language support
+- Available in multiple languages including Albanian
+- Less localized for Chinese market
+
+**WPS Office**:
+- Familiar MS Office-like interface
+- Excellent Chinese localization
+- Optimized for Chinese fonts and input methods
+- Advertisements in free version can be intrusive
+
+### 5.7 Platform Availability
+
+Both suites support:
+- Windows (including older versions for OnlyOffice)
+- macOS
+- Linux
+- Android
+- iOS
+
+OnlyOffice additionally offers:
+- Docker containers for easy deployment
+- NAS integration guides
+- Self-hosting options
+
+## 6. Credibility Evaluation
+
+The information comes from diverse sources including:
+- Official OnlyOffice blog posts
+- Technical reviews from software evaluation sites
+- WPS Office security advisories
+- Price comparison data
+- User experience reports
+
+Potential biases noted:
+- Some OnlyOffice articles appear promotional
+- WPS security vulnerabilities may be overemphasized
+- Pricing data may vary by region
+
+Overall, the information appears credible with multiple independent sources corroborating key facts about both products.
+
+## 7. Analysis Correction
+
+Upon reviewing the data, several initial assumptions required adjustment:
+
+1. **Open-source Advantage**: Initially thought to be OnlyOffice's primary benefit, but its collaboration features proved equally significant.
+
+2. **WPS Security**: Initially underestimated the severity of recent vulnerabilities, which affect all international versions.
+
+3. **Chinese Market**: Initially overlooked how WPS's deep localization gives it strong advantages in China.
+
+4. **Pricing**: OnlyOffice's free version is more fully-featured than initially assumed, with no ads or major limitations.
+
+5. **Mobile Experience**: Both suites provide robust mobile apps, contrary to initial expectations of limited functionality.
+
+## 8. Conclusion
+
+After comprehensive analysis, key findings emerge:
+
+**Choose OnlyOffice if you:**
+- Require open-source software for security/transparency
+- Need advanced collaboration features
+- Prefer an ad-free experience
+- Want self-hosting options
+- Work with diverse file formats including PDF forms
+
+**Choose WPS Office if you:**
+- Primarily use Chinese language and formats
+- Value extensive template libraries
+- Prefer Microsoft Office-like interface
+- Need features like resume assistant and OCR
+- Don't mind ads in free version
+
+**Final Recommendations:**
+1. For enterprises prioritizing security and collaboration, OnlyOffice is superior.
+2. For individual users in China, WPS Office offers better localization.
+3. Privacy-conscious users should prefer OnlyOffice's open-source model.
+4. Users needing advanced PDF editing should consider OnlyOffice's latest features.
+5. Both suites provide viable alternatives to Microsoft Office, with different strengths.
+
+Future developments to monitor include OnlyOffice's expanding AI integration and WPS's security improvements following recent vulnerabilities.
+
+## 中文版本
+
+# OnlyOffice与WPS Office对比分析
+
+## 1. 初步认识
+
+办公生产力套件已成为个人和专业使用的必备工具。OnlyOffice和WPS Office作为微软Office的替代品，各自提供独特的功能和优势。本分析将从功能、兼容性、定价、安全性和用户体验等多个维度全面比较这两款办公套件。
+
+OnlyOffice(原TeamLab)是由Ascensio System SIA开发的免费开源办公套件，截至2025年全球用户超过1500万。WPS Office由中国金山软件公司开发，在亚洲市场尤其受欢迎，全球用户超过2亿。
+
+## 2. 关键概念定义
+
+**OnlyOffice**：开源办公套件，提供文档编辑、电子表格、演示文稿、PDF编辑和表单处理功能，强调实时协作、跨平台兼容性和企业集成选项。
+
+**WPS Office**：金山软件开发的专有办公套件，提供文字处理、电子表格、演示文稿和PDF工具，以对Microsoft Office格式的高兼容性和对中国用户的本地化支持著称。
+
+## 4. 搜索总结
+
+搜索结果提供了两款办公套件的全面信息：
+
+**OnlyOffice**：
+- AGPL 3.0许可证下的免费开源软件
+- 强大的Microsoft Office格式兼容性(DOCX,XLSX,PPTX)
+- 带版本历史和评论的实时协作功能
+- 支持Windows、macOS、Linux、Android、iOS
+- 工作区版本包含文档管理、CRM和项目工具
+- 定期更新，8.3版本增加了PDF图章和Apple iWork支持
+- 所有版本均无广告
+
+**WPS Office**：
+- 免费增值模式，提供付费专业版
+- 优秀的Microsoft Office兼容性
+- 云同步和团队协作功能
+- 支持Windows、macOS、Linux、Android、iOS
+- 包含大量模板库(稻壳模板)
+- 国际版近期出现安全漏洞
+- 免费版包含广告
+
+## 5. 深度分析
+
+### 5.1 核心功能
+
+**OnlyOffice**提供：
+- 支持SmartArt的高级文档编辑器(v7.3新增)
+- 带数据透视表和公式向导的电子表格编辑器
+- 支持动画和演示者模式的演示工具
+- 带表单填写和数字签名的PDF编辑器
+- 带角色分配的表单创建器
+
+独特功能包括：
+- 扩展功能的插件系统
+- 文档比较和合并
+- 协作编辑的内置聊天
+- 企业自托管选项
+
+**WPS Office**提供：
+- 带简历助手的文字处理器
+- 丰富公式支持的电子表格
+- 带"超级PPT"自动排版功能的演示工具
+- PDF阅读器和基础编辑器
+- 拍照扫描和OCR功能
+
+突出功能包括：
+- 80万+模板的稻壳模板库
+- 含40+办公工具的应用中心
+- 信息收集的WPS表单
+- 强大的中文支持和本地化
+
+### 5.5 安全与隐私
+
+**OnlyOffice**：
+- 开源代码可审查
+- 符合GDPR标准
+- 提供文档加密和密码保护
+- JWT令牌文档保护
+- 水印和数字签名
+
+**WPS Office**：
+- 专有软件
+- 近期高危漏洞(CVE-2024-7262,CVE-2024-7263)
+- 国际版比中文版更易受攻击
+- 基础安全功能但透明度较低
+
+## 8. 结论
+
+综合比较后，主要发现如下：
+
+**选择OnlyOffice如果**：
+- 需要开源软件确保安全/透明
+- 需要高级协作功能
+- 偏好无广告体验
+- 需要自托管选项
+- 处理多种文件格式包括PDF表单
+
+**选择WPS Office如果**：
+- 主要使用中文语言和格式
+- 重视大量模板库
+- 偏好类Microsoft Office界面
+- 需要简历助手和OCR等功能
+- 不介意免费版的广告
+
+**最终建议**：
+1. 重视安全和协作的企业应选择OnlyOffice
+2. 中国个人用户更适合本地化更好的WPS Office
+3. 注重隐私的用户应选择OnlyOffice的开源模式
+4. 需要高级PDF编辑功能的用户应考虑OnlyOffice的最新特性
+5. 两款套件都是Microsoft Office的可行替代品，各有优势
+
+未来值得关注的发展包括OnlyOffice不断扩展的AI集成和WPS在近期漏洞后的安全改进。
