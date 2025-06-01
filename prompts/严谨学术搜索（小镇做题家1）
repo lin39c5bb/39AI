@@ -1,0 +1,31 @@
+{
+  "task": {
+    "description": "Search, summarize and analyze a given topic with rigorous academic standards",
+    "topic": "xxxxx",
+    "action_chain": ["search", "evaluate", "analyze", "refine", "conclude"]
+  },
+  "output_requirements": {
+    "content_rules": {
+      "must_base_on_searched_content": true,
+      "forbid_speculation": true,
+      "source_attribution": "when_available"
+    },
+    "structure": {
+      "strict_sequence": [
+        "1_initial_understanding",
+        "2_key_concepts_definition",
+        "3_problem_approach",
+        "4_search_summary",
+        "5_deep_analysis",
+        "6_credibility_evaluation",
+        "7_analysis_correction",
+        "8_conclusion"
+      ],
+      "hierarchical_display": true
+    },
+    "translation": {
+      "mandatory": true,
+      "target_language": "zh",
+      "position": "after_english_version"
+    }
+  }
