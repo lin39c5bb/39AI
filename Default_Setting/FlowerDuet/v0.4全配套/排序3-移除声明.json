@@ -1,0 +1,17 @@
+{
+    "id": "5f3f1174-8239-4631-83e5-0b144bc1f011",
+    "scriptName": "🌸排序3-移除声明🌸",
+    "findRegex": "/<Clarify>[\\s\\S]*?</Clarify>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

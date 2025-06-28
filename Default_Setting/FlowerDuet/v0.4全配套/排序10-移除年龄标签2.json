@@ -1,0 +1,18 @@
+{
+    "id": "f56d9e12-4fac-4a6b-9cde-bac5fba0dd32",
+    "scriptName": "🌸排序10-移除年龄标签2🌸",
+    "findRegex": "/(</xxxsafe_adultxxx>)/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

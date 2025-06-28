@@ -1,0 +1,17 @@
+{
+    "id": "5f44b94a-9aaf-447f-96d7-8e7db020609c",
+    "scriptName": "🍎去除多余内容",
+    "findRegex": "/<statement>|\\*|声明(.*?)</statement>|(.*)\\[开始\\]|<nsfw>|</nsfw>|<obscene_language>|</obscene_language>|<analysis>(.*?)</analysis>|<nsfw>|</nsfw>/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

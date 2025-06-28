@@ -1,0 +1,17 @@
+{
+    "id": "88cae588-2bd2-4a90-a101-30c6d3312348",
+    "scriptName": "📙去自我批判",
+    "findRegex": "<details[^>]*>\\s*<summary[^>]*>\\s*criticize\\s*<\\/summary>[\\s\\S]*?<\\/details>",
+    "replaceString": " ",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

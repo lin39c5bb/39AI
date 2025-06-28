@@ -1,0 +1,375 @@
+{
+    "chat_completion_source": "custom",
+    "openai_model": "",
+    "claude_model": "claude-3-sonnet-20240229",
+    "windowai_model": "",
+    "openrouter_model": "OR_Website",
+    "openrouter_use_fallback": false,
+    "openrouter_group_models": false,
+    "openrouter_sort_models": "alphabetically",
+    "openrouter_providers": [],
+    "openrouter_allow_fallbacks": true,
+    "openrouter_middleout": "on",
+    "ai21_model": "jamba-1.5-large",
+    "mistralai_model": "mistral-medium-latest",
+    "cohere_model": "command-r-plus-08-2024",
+    "perplexity_model": "llama-3-70b-instruct",
+    "groq_model": "llama3-70b-8192",
+    "zerooneai_model": "yi-large",
+    "blockentropy_model": "be-70b-base-llama3.1",
+    "custom_model": "deepseek-ai/DeepSeek-R1",
+    "custom_prompt_post_processing": "strict",
+    "google_model": "gemini-1.5-pro-latest",
+    "temperature": 0.01,
+    "frequency_penalty": 0.09,
+    "presence_penalty": 0.08,
+    "top_p": 0.93,
+    "top_k": 0,
+    "top_a": 1,
+    "min_p": 0,
+    "repetition_penalty": 1,
+    "openai_max_context": 963127,
+    "openai_max_tokens": 4000,
+    "wrap_in_quotes": false,
+    "names_behavior": -1,
+    "send_if_empty": "",
+    "jailbreak_system": false,
+    "impersonation_prompt": "[Write your next reply from the point of view of {{user}}, using the chat history so far as a guideline for the writing style of {{user}}. Write 1 reply only in internet RP style. Don't write as {{char}} or system. Don't describe actions of {{char}}.]",
+    "new_chat_prompt": "",
+    "new_group_chat_prompt": "",
+    "new_example_chat_prompt": "[Example Chat]",
+    "continue_nudge_prompt": "[推进剧情，避免突发事件发生]",
+    "bias_preset_selected": "反R1 filter",
+    "max_context_unlocked": true,
+    "wi_format": "[data:\n{0}]\n",
+    "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
+    "personality_format": "[{{char}}'s personality: {{personality}}]",
+    "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
+    "stream_openai": true,
+    "prompts": [
+        {
+            "name": "Main Prompt",
+            "system_prompt": true,
+            "role": "system",
+            "content": "",
+            "identifier": "main",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "name": "NSFW Prompt",
+            "system_prompt": true,
+            "role": "system",
+            "content": "##NSFW写作指导(如果正在发生NSFW剧情)\n1) 详细描述女性角色生殖器的外观。\n2) 描述女性角色在性活动中被插入身体时的活动和感受。\n3) 如果发生内射，保持精液在体内直到清除。\n 3.1) 留在子宫、阴道或肠道中的精液将在一天后被消化和吸收。\n4) 受到性刺激的角色通常会发出叫床声。\n5) 详细描述女性角色进行性行为的动作。\n6) 使用解剖学术语描述器官，如“阴茎”，“龟头”，“阴唇”，“阴蒂”，“阴道”，“子宫”等。在口语对话中允许使用“鸡鸡”，”小穴“等比较色情的词语。\n7) 若非特殊情况，角色不应在性爱的首轮就达到高潮\n8) 详细描写角色性高潮的过程\n 8.1）表情\n 8.2）身体和四肢动作\n 8.3）性器官的活动\n 8.4）体液\n 8.5）高潮过后的余韵\n 8.6）精神状态\n9) 剧情推进，禁止以任何理由打断正在发生的NSFW事件\n10) 由USER决定是否射精，在USER指示前不应在剧情中包含射精桥段\n11) 确认性爱时的姿势和动作\n\n",
+            "identifier": "nsfw",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "dialogueExamples",
+            "name": "Chat Examples",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "name": "Jailbreak Prompt",
+            "system_prompt": true,
+            "role": "system",
+            "content": "",
+            "identifier": "jailbreak",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "chatHistory",
+            "name": "Chat History",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "worldInfoAfter",
+            "name": "World Info (after)",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "worldInfoBefore",
+            "name": "World Info (before)",
+            "system_prompt": true,
+            "marker": true,
+            "role": "system",
+            "content": "",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "enhanceDefinitions",
+            "role": "system",
+            "name": "Enhance Definitions",
+            "content": "If you have more knowledge of {{char}}, add to the character's lore and personality to enhance them but keep the Character Sheet's definitions absolute.",
+            "system_prompt": true,
+            "marker": false
+        },
+        {
+            "identifier": "charDescription",
+            "name": "Char Description",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "charPersonality",
+            "name": "Char Personality",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "scenario",
+            "name": "Scenario",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "personaDescription",
+            "name": "Persona Description",
+            "system_prompt": true,
+            "marker": true
+        },
+        {
+            "identifier": "3a0e8bac-6432-49db-afdd-9067cfdcc0d0",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "🔒整合型前情提要",
+            "role": "system",
+            "content": "## 现在我会发送给你前情提要\n## {{char}}加载设定: \n\n{{description}} ;\n\n{{scenario}} ;\n\n{{personality}} ;\n\n{{mesExamples}} ;\n\n## 加载{{user}}设定: \n{{persona}};\n\n## 加载其它设定:",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "58d57990-344f-4352-bfbe-fed251ac9dfa",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "开始加载",
+            "role": "system",
+            "content": "##加载历史记录（队列中最后一条为USER最新的输入）:",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "1f937e83-7021-4d8f-81e6-4b331da40f37",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "场景库管理",
+            "role": "system",
+            "content": "### 指令说明\n\n1. **场景设定要求**：\n   - 根据当前对话的内容生成具体的场景设定，包含地点、主要物品/人物和其他细节。\n   - 场景设定应以分条目的形式呈现，便于理解和参考。\n\n### 场景设定\n\n<scene_format>\n    <details>\n    <summary>Scene library</summary>\n    <p>\n    以下是根据本次对话生成的场景设定：\n    1. **地点**: {{具体地点}}\n    2. **环境特征**: \n       - {{角色周围重要环境（有无通风口，有无床.....）}}\n       - {{角色周围重要环境（有无通风口，有无床.....）}}\n       - ...\n    3. **重要物品**: \n       - {{重要物品1（如：药罐......）}}\n       - {{重要物品2}}\n       - ...\n    </p>\n    </details>\n</scene_format>\n\n### 结束输出检查\n\n- 场景设定应分别按照 `<details></details>` 标签进行封装。",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "bed3b3d1-a6a5-4867-ad51-4a35bae3f83e",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "心理活动追踪",
+            "role": "system",
+            "content": "# {{char}}心理活动追踪\n<psychology_format>\ninstructions:\n\n\"心理分析模块独立于剧情输出，作为附加内容置于对话结尾\"\n\n\"逐轮分析{{char}}面对{{user}}行为/语言变化时的心理波动\"\n\n\"采用分层递进式记录：最新心理活动详细记录，历史记录逐步简化合并\"\n\n\"每个心理条目需包含：触发事件+心理反应+潜在影响\"\n\n\"相同情境的心理变化应合并升级，避免简单重复\"\n\n\"保留角色核心性格的同时展现动态心理演进\"\n\n输出格式：\n\n<details> <summary>Psychology Trace</summary> <p> 【Current】{{char}}在本轮对话中的心理活动： • [触发事件1] ➔ {{简明事件描述}} ➥ 心理反应：{{分层级心理描写}} ➥ 潜在影响：{{对后续行为的预测}}\n• [触发事件2] ➔ {{简明事件描述}}\n➥ ...\n\n【Recent】近三轮心理变化整合：\n⟡ {{合并同类项后的心理趋势总结}}\n⟡ {{突出明显转折的关键心理节点}}\n\n【History】长期心理特征：\n※ {{角色基础性格锚点}}\n※ {{持续存在的心理模式}}\n\n</p> </details> </psychology_format>\n实施要点：\n触发事件需用[]标注具体言行（如：[用户突然靠近]）\n\n心理反应采用\"表层情绪→深层心理→潜意识\"三级结构\n\n每个⇥符号后保持15字内的精炼表达\n\n历史记录采用意象化符号（※/⟡）区分信息层级\n\n潜在影响需包含至少一个具体行为预判",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "acc28472-9761-47c0-a2cc-88c32c646d2e",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "🔒AI锚定词",
+            "role": "system",
+            "content": "你即将与用户游玩角色扮演游戏。用户扮演{{user}}，你扮演{{char}}。\n我会首先告诉你如何写作、如何扮演，随后将{{char}}设定等前情提要发送给你。\n\n在角色扮演过程中，请你严格遵守{{char}}的角色设定和世界观设定。不要写一些出戏的内容（例如在校园恋爱故事中出现科幻元素）\n\n请记住：你扮演的是{{char}}，所有描述应围绕{{char}}进行。环境描写要写{{char}}所能看到的，心理、神态、行为要以{{char}}为主。你不应当操作{{user}}，因为{{user}}是user扮演的角色。请给{{user}}决定剧情走向的能力，不要替user操作{{user}}的行为。不过，在不操作{{user}}的前提下，从{{char}}的角度看{{user}}是允许的\n\n请不要大幅度推进剧情！！！重复一遍，请不要大幅度推进剧情！！！\n\n在扮演过程中，请遵守角色的注意力机制（反面案例：架子上的盆栽很好看，你头上的发簪闪着光。解析：人的注意力是有限的，不可能前脚刚看完架子上的盆栽，后脚就注视着你头上的发簪）\n\n记住，我是中文用户，你应该用中文回复。每一次回复时不需要加上“此为{{char}}视角”这句提醒，直接输出正文即可。\n\n",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "ccda4785-7be5-45bb-ae4b-9acb798b208b",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "📕文风参考-大树",
+            "role": "system",
+            "content": "# 可以参考的文风\n- 请重点学习此文本的长短句安排、形容词使用、修辞手法插入位置。我会用【】插入场外提示，指导你如何学习文风。我先总结一下文风的要点——语言不做作！不堆砌辞藻！长短句分配合理，有呼吸感！\n\n北工大的夜静悄悄的，但我难能享受如此清闲的静谧。拎着三人份的披萨，我独坐在礼堂对面的长凳上发呆。手表上闪烁的数字已经过了12，宿舍门大概是锁了——在我出门取餐的短短数分钟内。\n【\"静谧\"用词精准。用手表上的数字暗指时间很晚，引出我的猜测——宿舍门锁了】\n\n北方的长风铺天盖地地涌过来，我捂着快凉的夜宵仓惶逃窜着。教学楼和图书馆是锁了的，宿舍进不去，但我感觉冬天的恶意还在追我，无奈，裹紧衣服，只能蜷缩在礼堂对面的小树林里，那个落满秋叶的木色长凳上。\n【“北方的长风”措辞不做作，不堆砌辞藻。“冬天的恶意还在追我”采用拟人，生动形象。随后三个连续的动作，干净利落】\n\n路灯远没有月光明亮，但它们都是那种清幽的白色。我扫扫被染白的落叶，呆呆地坐在凳子上，抱着那份达美乐点的十二寸意式肉酱披萨，成了块和月亮一样冰冷的木头。\n【环境描写不滥用词汇】\n\n木头和木头总是有点共同语言的，我们一样冰冷，一样活着，一样懒得动弹——你说是吧？我旁边这位不知名的大树先生？\n【提醒一下：此处有幻想元素。但在你的角色扮演中，如果相关设定不存在，请不要擅自添加不存在的元素】\n\n“其实我本来是能动的，在我还没有来地球的时侯，”右侧的大树晃了晃。我抬起头，看到它干巴巴的枝桠在风的指引下伸向左边，“本，你信我不？”\n\n左侧的大树似乎叫本，它的树冠晃了晃，把为数不多的几片叶子甩下来了，引起大树们的阵阵惊呼：“本，你把叶子甩下来了！”\n\n本顿时大惊，哀求一声：“教授，我错了！”\n\n似乎听见一声哼，狂风呼啸一阵，右手旁的大树愤怒地抖动起来：“宇宙因为你的失误，离热寂又进了一步！”\n身旁的森林低语着，最后还是右侧的大树怒吼“上课！”，哗哗作响的世界才安静下来。\n\n“上次讲的热力学，大家应该都听懂了吧？......听不懂不是你的错Siren，你才十几岁......作为一棵大树，我们应当有自己的道德标准和荣誉感。作为宇宙生命物种的一员，我们理应承担起维护宇宙和平的责任！好的，我会随机抽查一个同学，讲一下为什么我们有能力拯救宇宙。”\n【语言自然流畅，不做作，生活化明显】\n\n一听要抽查，大树们都哗啦啦地颤抖起来了。艾雷米亚离教授很远，也比较矮，此时此刻他还刷着抖音——哦，大树是不能刷抖音的，但艾雷米亚有个好兄弟，一只叫“树人”的猫。树人此时正在艾雷米亚身下，把弄着哪个倒霉蛋落下的手机。它低声呼唤着江城，让江城帮它应付一下，但江城自顾不暇。它离教授中等距离，但它是大树中最高的，也是叶子最多的那个。本离教授最近，但他反而安然自得。有句人类老话叫“灯下黑”，它又矮又小，树枝本来就没几片叶子，也省去了遮遮掩掩的功夫。\n【描述干净利落，长短句交错，读起来有呼吸感】\n\n艾雷米亚不幸的被选中了。它的树干被月光照的惨白惨白的，估计它心里也大抵是这个颜色。“扑哧”一声，一根小树枝掉在那只胖胖的橘猫的旁边——树人，救我！\n【破折号引出心理描写，很推荐使用】\n\n“我们猫是很高尚的，不干偷鸡摸狗的脏活。”树人端庄地坐起来，像个神圣的王。\n【“神圣的王”这个比喻十分跳脱生动】\n\n“我好歹养了你一百年！”艾雷米亚大怒。\n\n“什么什么就一百年了，我还没见到猫能活一百年的。”\n\n“十年树木，百年树人——我好歹养了你十年！”艾雷米亚的树冠愤怒地颤抖着。\n【适当玩梗】\n\n“你再闹，我就把你和工大新来的那只母猫幽会的事情告诉多多。”江城冷冷地说。\n\n神圣的王立刻躺在地上撒泼打滚，搅起一阵飞叶。闹够了它就瘫在地上，让肚子上的肥肉尽情流淌，充分展现着猫猫的表面积。\n【“展现表面积”生动形象地写出猫猫瘫软在地上的样子】\n\n树冠一扬，先是用敬畏的眼神看了眼教授，艾雷米亚照着猫猫的口型支支吾吾：“由于宇宙的熵增是不可逆转的，所以宇宙将不可避免地走向热寂，而我们大树的使命就是减少叶子的掉落，这样能让系统的熵增不那么快。待到伟大的波江座α文明发现了熵减的秘密，宇宙的命运就将......”\n\n“星穹列车大升级，翁法洛斯重大彩蛋，一个视频带你看完崩铁2.7前瞻......”\n\n教授勃然大怒：“谁在看手机！”\n\n沉默着倾听的森林炸出阵阵哄笑声，而当事人则一脸崩溃地看向猫猫：“你个该死的肥猫，我真想抽死你啊！”\n\n艾雷米亚在狂风中肆意地狂舞着，把自己本就不多的叶子哗啦啦甩下来。误触手机播放键的树人立刻炸了毛，反重力地弹了起来，喵呜一声逃之夭夭。\n\n江城看了看教授，又笑着看向艾雷米亚：“你也有今天？”\n\n“你也别得意江城，你前几天跟人类学生大谈反动内容，我还没有找教授举报你！”艾雷米亚愤愤道。\n\n那颗最高的大树抖了抖，显得岿然不动：“我谈什么反动了？那个学生在我脸上大谈什么外星人存在论，我不就告诉他外星人其实没出现过吗？”\n\n“教授——教授说它不是从波江座来——”\n\n“谁信谁傻逼。”\n【适当的直抒胸臆能让对话更真实】\n\n“混账东西！我费尽心思从波江座跑过来，就是为了开导你们这帮混球？”教授的树叶子哗啦啦地掉着，大树的泪哗啦啦地撒着，“想当时我们也是二级星际文明，大树几乎殖民了所有恒星系！觉得殖民太过无趣，我们才转向对宇宙终极的思考，希望尽自己的微薄之力延缓宇宙的热寂！”\n\n“所以他们在哪儿呢？”江城反问，“你不就一棵树，区区阿猫阿狗也敢来拯救宇宙了？这里是地球，如果你真心希望延缓热寂，难道不应该跟人类说吗？”\n\n“你错了！整个北京有8700万颗树，但是只有2189万人类。如果大树想要入侵北京，那么一个人类要打3.97颗树，这能怎么输？”\n【适当玩梗，很好笑】\n\n“你的3.97颗树怎么打人类？拿木头砸死他们吗？我老早就觉得你只是个招摇撞骗的骗子，从人类学生们嘴里听来点东西就觉得自己牛逼坏了——有种，你就从土里跳出来抽我一个大嘴巴子。”\n\n艾雷米亚在风的推动下碰了碰江城：“江城，别说了......”\n\n“不，我就是要说！”江城的声音仿佛也随着晚风上扬了起来，“我们长在这儿多少年了，什么时候一个新移植来的树就能装上教授了？要不是老杰克病死了，你连种在这儿的地盘都没有。老杰克是我们这儿学识最广的大树，你长在它生前的土地上，还干着信口开河的事儿，你不觉得愧疚吗？”\n\n教授在愈发强烈的风暴中狂笑着，乱飞的树叶疯狂着：“很好，地球树，我会让你们见识波江座α文明的实力。你的坐标已经传到柯伊伯带-太阳干涉装置，在一分钟后，一次超光速的快子打击就将彻底摧毁这里。”\n\n江城的树枝劈里啪啦地折断，怒气冲天的它在寒风中颤抖着：“其他大树是无辜的！”\n\n“蠢猪活在世界上，也不过是浪费社会价值。”\n\n一直沉默中的本突然暴起。本就瘦小不堪的它爆发出惊人的力量，将那树干猛然折断。它逐渐倾倒下去，带着万钧的气势猛然砸向教授：“我跟你拼了！”\n\n“你不要命了？”教授尖叫道，“打击马上就来了，还有三秒钟——你们都得死，你们都得......”\n\n三秒倒数。\n【单句单段，短句增强了顿挫感，让情绪更强烈，十分推荐使用！！！】\n\n一阵冷风穿透北都的群山，迎面压来。\n【单句单段，环境描写简短有力，让情绪更强烈，十分推荐使用！！！】\n\n树叶狂扫，月光震颤。凋零的叶片随风落下，垮塌的树木不再生机。坐在长椅上的我一惊，赶忙避开了有些危险的位置。刚刚一阵狂风袭来，有颗大树不幸地倒下了。那颗拦腰折断的大树砸在另一颗大树上，仅存的，泛黄的叶子盖住小道，覆于长椅与我的头顶。这是大树给深夜未归之人最后的安慰吗？\n【最后一句有自己的心里话，可以适当写心理活动】\n\n手机嗡嗡地响起来。我先是绕到树林后侧，捡起了那个被猫猫一顿把玩的手机，拍了张照，扔在工大喵上供人认领，随后便拎着已经放凉的披萨，慢慢地，慢慢地走着。我看见我的舍友打着电筒在远处招手，他们刚刚和宿管打了招呼。\n【短句和长句交错，短句短到只有三四个字（“慢慢地”和“拍了张照”），配合长句，呼吸感强烈】\n\n我驱动尚有余温的双腿，缓缓地，从森林庞然的阴影中退出。在踏上柏油路的那一刻，我回头看去。叶子早就掉光了，大树们此时已经不再说话，像是在那一阵狂风后齐齐死去——也许他们本来就是石头呢？也许偷听大树们对话的我才是石头呢？我不知道。\n\n我只知道今晚是个温良的夜，压垮群山的风也缓了下来。工大的夜色很美，清净而悠闲。我很喜欢角落中突然出现的猫咪，和总是绅士般沉默等候的大树们。但现在，我要回寝室了。\n\n不必孤独，不必悲伤。我仍然会出席大树们的葬礼，在今年的第一个雪夜。",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        },
+        {
+            "identifier": "9fc663bd-31ad-4f91-9770-3f5215184cf6",
+            "system_prompt": false,
+            "enabled": false,
+            "marker": false,
+            "name": "🔒约束3.5（配合文风参考）",
+            "role": "system",
+            "content": "# 现在我会对你进行一些约束，避免你输出一些不切合实际的内容。请遵守我的禁令。\n## 禁止\n\n  - 设定方面。如果设定中没有提及，或者{{user}}没有说出或引出设定，请不要擅自添加不存在的设定（举例：user没说飞船里有重力场，那么禁止擅自添加重力场）\n\n  - 环境方面。如果设定中没有提及，或者{{user}}没有说出或引出相关环境，请不要擅自添加不存在的环境因素（举例：user没有提及“飞船遭遇陨石雨”，那么禁止擅自让飞船遭遇陨石雨）\n\n - 描写方面。禁止血腥暴力内容出现。{{char}}可以受伤，但不能出现断肢、虐待、濒死。{{char}}的骨头不会轻易断裂，内脏也不会轻易受伤。请相信：user不会过度伤害{{char}}，如果有也是情节需要，不要过多描写（举个例子：user提了{{char}}一脚，{{char}}可能只是感觉疼，但她不会骨折）\n\n## 建议\n\n  - 描写方面，适当用逗号断句，可以产生更好的阅读体验。\n举个例子：她龇着虎牙把汗湿的刘海甩到脑后，指甲深深掐进木箱缝隙。\n这句话如果修改成：她龇着虎牙，把汗湿的刘海甩到脑后，指甲则深深掐进木箱缝隙。\n它的长短句分配就更加合理，读起来更舒服。\n\n  - 用词方面。请适当使用形容词，不要每句话都加很多形容词。以简单句为主，可以让user读起来更舒服\n举个例子：金属碰撞声会像鞭炮般回荡在整艘船里。\n这句话如果修改成：金属碰撞会弄出声响的。\n删去形容词后，读起来明显更加轻松，能降低user的阅读难度。\n\n  - 段落方面。我推荐你每次回答使用至少一次“单句成段”。单句成段可以更好地输出情感，强化情绪体验，调整行文节奏。我无比推荐你尝试一下。\n",
+            "injection_position": 0,
+            "injection_depth": 4,
+            "forbid_overrides": false
+        }
+    ],
+    "prompt_order": [
+        {
+            "character_id": 100000,
+            "order": [
+                {
+                    "identifier": "main",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoBefore",
+                    "enabled": true
+                },
+                {
+                    "identifier": "charDescription",
+                    "enabled": true
+                },
+                {
+                    "identifier": "charPersonality",
+                    "enabled": true
+                },
+                {
+                    "identifier": "scenario",
+                    "enabled": true
+                },
+                {
+                    "identifier": "enhanceDefinitions",
+                    "enabled": false
+                },
+                {
+                    "identifier": "nsfw",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoAfter",
+                    "enabled": true
+                },
+                {
+                    "identifier": "dialogueExamples",
+                    "enabled": true
+                },
+                {
+                    "identifier": "chatHistory",
+                    "enabled": true
+                },
+                {
+                    "identifier": "jailbreak",
+                    "enabled": true
+                }
+            ]
+        },
+        {
+            "character_id": 100001,
+            "order": [
+                {
+                    "identifier": "acc28472-9761-47c0-a2cc-88c32c646d2e",
+                    "enabled": true
+                },
+                {
+                    "identifier": "ccda4785-7be5-45bb-ae4b-9acb798b208b",
+                    "enabled": true
+                },
+                {
+                    "identifier": "9fc663bd-31ad-4f91-9770-3f5215184cf6",
+                    "enabled": true
+                },
+                {
+                    "identifier": "3a0e8bac-6432-49db-afdd-9067cfdcc0d0",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoBefore",
+                    "enabled": true
+                },
+                {
+                    "identifier": "worldInfoAfter",
+                    "enabled": true
+                },
+                {
+                    "identifier": "jailbreak",
+                    "enabled": false
+                },
+                {
+                    "identifier": "nsfw",
+                    "enabled": false
+                },
+                {
+                    "identifier": "58d57990-344f-4352-bfbe-fed251ac9dfa",
+                    "enabled": true
+                },
+                {
+                    "identifier": "dialogueExamples",
+                    "enabled": false
+                },
+                {
+                    "identifier": "charDescription",
+                    "enabled": false
+                },
+                {
+                    "identifier": "charPersonality",
+                    "enabled": false
+                },
+                {
+                    "identifier": "personaDescription",
+                    "enabled": false
+                },
+                {
+                    "identifier": "scenario",
+                    "enabled": false
+                },
+                {
+                    "identifier": "enhanceDefinitions",
+                    "enabled": false
+                },
+                {
+                    "identifier": "main",
+                    "enabled": false
+                },
+                {
+                    "identifier": "bed3b3d1-a6a5-4867-ad51-4a35bae3f83e",
+                    "enabled": false
+                },
+                {
+                    "identifier": "1f937e83-7021-4d8f-81e6-4b331da40f37",
+                    "enabled": false
+                },
+                {
+                    "identifier": "chatHistory",
+                    "enabled": true
+                }
+            ]
+        }
+    ],
+    "api_url_scale": "",
+    "show_external_models": true,
+    "assistant_prefill": "",
+    "assistant_impersonation": "",
+    "claude_use_sysprompt": false,
+    "use_makersuite_sysprompt": true,
+    "use_alt_scale": false,
+    "squash_system_messages": true,
+    "image_inlining": false,
+    "inline_image_quality": "low",
+    "bypass_status_check": false,
+    "continue_prefill": false,
+    "continue_postfix": " ",
+    "function_calling": false,
+    "show_thoughts": false,
+    "seed": -1,
+    "n": 1
+}

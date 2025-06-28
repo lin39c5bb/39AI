@@ -1,0 +1,17 @@
+{
+    "id": "cd5d787a-4c95-449d-a4e1-f7b6c00f73df",
+    "scriptName": "🌸排序5-隐藏2楼外用户输入🌸",
+    "findRegex": "[\\s\\S]*",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 2,
+    "maxDepth": null
+}

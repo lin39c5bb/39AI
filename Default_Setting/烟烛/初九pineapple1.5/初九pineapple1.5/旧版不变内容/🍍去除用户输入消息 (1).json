@@ -1,0 +1,17 @@
+{
+    "id": "011d81c9-1d5a-40a9-95b4-195efd3f1b53",
+    "scriptName": "🍍去除用户输入消息",
+    "findRegex": ".*",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 3,
+    "maxDepth": null
+}

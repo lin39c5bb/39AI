@@ -1,0 +1,17 @@
+{
+    "id": "b005b210-08a7-4ccc-9281-201f79dabb2a",
+    "scriptName": "🍍省token正则",
+    "findRegex": "/^.*(待删除区)|③.*|②|①/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 2,
+    "maxDepth": null
+}

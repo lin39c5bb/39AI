@@ -1,0 +1,18 @@
+{
+    "id": "4dbe1925-27d1-46b4-903c-8f5dbb2e7f4e",
+    "scriptName": "隐藏数据库和memory",
+    "findRegex": "/<details>\\s<summary>数(.*)|<story_management>(.*)|<memory>(.*)/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

@@ -1,0 +1,17 @@
+{
+    "id": "1ca10ee8-97f6-4ee9-9c1d-0900830d2b27",
+    "scriptName": "📙去回顾",
+    "findRegex": "<details[^>]*>\\s*<summary[^>]*>\\s*review\\s*<\\/summary>[\\s\\S]*?<\\/details>",
+    "replaceString": " ",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

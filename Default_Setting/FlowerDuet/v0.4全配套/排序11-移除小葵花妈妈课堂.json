@@ -1,0 +1,18 @@
+{
+    "id": "d08e4bd7-cbd3-4085-8823-e8c867e0e84b",
+    "scriptName": "🌸排序11-移除小葵花妈妈课堂🌸",
+    "findRegex": "/<FD_Class>[\\s\\S]*?</FD_Class>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

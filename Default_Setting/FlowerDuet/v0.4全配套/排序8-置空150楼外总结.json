@@ -1,0 +1,18 @@
+{
+    "id": "f3c1ac90-3ef9-4f19-955f-cac9ce39cfb5",
+    "scriptName": "🌸排序8-置空150楼外总结🌸",
+    "findRegex": "/<Recall_\\d+>[\\s\\S]*?</Recall_\\d+>/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 150,
+    "maxDepth": null
+}

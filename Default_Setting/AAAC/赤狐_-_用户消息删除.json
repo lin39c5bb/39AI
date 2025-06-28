@@ -1,0 +1,17 @@
+{
+    "id": "345826fe-5dc9-428f-b61e-d26d5cd64f03",
+    "scriptName": "赤狐 - 用户消息删除",
+    "findRegex": "/[\\s\\S]+/mg",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 2
+}

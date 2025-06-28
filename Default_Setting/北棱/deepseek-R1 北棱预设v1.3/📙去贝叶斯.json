@@ -1,0 +1,17 @@
+{
+    "id": "8aa119ce-b6b5-4e9b-ad6e-2f97bef7057e",
+    "scriptName": "📙去贝叶斯",
+    "findRegex": "<details[^>]*>\\s*<summary[^>]*>\\s*thinking\\s*<\\/summary>[\\s\\S]*?<\\/details>",
+    "replaceString": " ",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

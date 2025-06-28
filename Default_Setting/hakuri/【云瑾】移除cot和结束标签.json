@@ -1,0 +1,17 @@
+{
+    "id": "d0939a86-4170-44d8-8968-b6148a5c2ed6",
+    "scriptName": "【云瑾】移除cot和结束标签",
+    "findRegex": "/^[\\s\\S]*### 正文/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

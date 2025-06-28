@@ -1,0 +1,17 @@
+{
+    "id": "01ca610c-e64f-4f63-be8f-9360307c6289",
+    "scriptName": "🌸排序1-移除思维链-Pro🌸",
+    "findRegex": "/<thinking>([\\s\\S]*?)</thinking>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

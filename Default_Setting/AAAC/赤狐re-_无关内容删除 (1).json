@@ -1,0 +1,17 @@
+{
+    "id": "ec4dce18-71d2-4559-96c9-e454bac5f26d",
+    "scriptName": "赤狐Re- 无关内容删除",
+    "findRegex": "/(^[\\s\\S]*?<\\/think>.*)/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

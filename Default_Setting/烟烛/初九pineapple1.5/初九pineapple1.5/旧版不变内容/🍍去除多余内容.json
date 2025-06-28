@@ -1,0 +1,18 @@
+{
+    "id": "6ed229ea-2919-44ee-bfcd-d8582f61edb2",
+    "scriptName": "🍍去除多余内容",
+    "findRegex": "/<analysis>(.*)</analysis>|[\\u0900-\\u097F]+|[Ա-Ֆ\\u0370-\\u03FF\\u10A0-\\u10FF]+|(?<=[\\u4e00-\\u9fa5])\\s(?![\\r\\n])(?=[\\u4e00-\\u9fa5])|『|』|<mark>|[а-яёА-ЯЁ]|</mark>|<statement>(.*?)</statement>|(.*)```start|```end|<nsfw>|</nsfw>|(.*)\\[开始\\]|[\\u1100-\\u11FF\\u3130-\\u318F\\uA960-\\uA97F\\uAC00-\\uD7A3\\uD7B0-\\uD7FF]|[\\u0900-\\u0DFF]+|(?<=[\\u4e00-\\u9fff])\\s+(?=[\\u4e00-\\u9fff])/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 1,
+    "minDepth": null,
+    "maxDepth": null
+}

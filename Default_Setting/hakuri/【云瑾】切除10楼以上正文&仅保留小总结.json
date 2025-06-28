@@ -1,0 +1,17 @@
+{
+    "id": "4c56b336-bfb1-4766-a053-6f072bfd57c9",
+    "scriptName": "【云瑾】切除10楼以上正文&仅保留小总结",
+    "findRegex": "/[\\s\\S]*<scene>|<\\/scene>|<summary>摘要<\\/summary>|<details>|<\\/details>[\\s\\S]*/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 10,
+    "maxDepth": null
+}

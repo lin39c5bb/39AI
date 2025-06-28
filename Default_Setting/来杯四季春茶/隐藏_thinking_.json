@@ -1,0 +1,17 @@
+{
+    "id": "674a23b1-3085-4f62-8c0f-94ede5fe2059",
+    "scriptName": "隐藏<thinking>",
+    "findRegex": "<(thinking)>([\\s\\S]*)<\\/(thinking)>",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

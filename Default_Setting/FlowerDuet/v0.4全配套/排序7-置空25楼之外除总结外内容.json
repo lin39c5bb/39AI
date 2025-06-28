@@ -1,0 +1,18 @@
+{
+    "id": "f1163479-1bbd-48db-91c8-95e0de0cc15a",
+    "scriptName": "🌸排序7-置空25楼之外除总结外内容🌸",
+    "findRegex": "/^(.*)(?=\\<Recall_)|(?<=\\<\\/Recall_[^\\]]*\\>)(.*)/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 25,
+    "maxDepth": null
+}

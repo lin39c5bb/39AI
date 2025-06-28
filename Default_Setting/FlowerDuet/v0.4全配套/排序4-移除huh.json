@@ -1,0 +1,18 @@
+{
+    "id": "ee39428b-7f38-4cbc-be7e-64af69bb4bbb",
+    "scriptName": "🌸排序4-移除huh🌸",
+    "findRegex": "/<huh>([\\s\\S]*?)</huh>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

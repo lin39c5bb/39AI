@@ -1,0 +1,17 @@
+{
+    "id": "b07b6eef-f00a-4c3c-960d-36eacaafd5f9",
+    "scriptName": "🌸排序12-DS字数正则🌸",
+    "findRegex": "/\\<-- Total([\\s\\S]*?)\\ -->/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

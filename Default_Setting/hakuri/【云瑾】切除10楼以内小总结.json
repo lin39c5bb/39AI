@@ -1,0 +1,17 @@
+{
+    "id": "30c53ab4-0c58-4df8-8d3c-e1ba24abcb92",
+    "scriptName": "【云瑾】切除10楼以内小总结",
+    "findRegex": "/<scene>(.*?)<\\/details>/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 9
+}

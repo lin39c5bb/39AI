@@ -1,0 +1,17 @@
+{
+    "id": "7cf2b481-f1b3-47f1-a3c2-f5a1911fd97a",
+    "scriptName": "🌸排序2-移除思维链-Flash🌸",
+    "findRegex": "/<sikao>[\\s\\S]*?</sikao>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

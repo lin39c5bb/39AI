@@ -1,0 +1,17 @@
+{
+    "id": "b713fbff-47ae-4616-8d7a-655c4ba407e2",
+    "scriptName": "【云瑾】八股抹除",
+    "findRegex": "/一(丝+)|不易察觉(的?)|不易觉察(的?)|(微|几)不可(察|闻)(的?)|(，?)指(关?)节(.*?)(泛白|发白)/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
