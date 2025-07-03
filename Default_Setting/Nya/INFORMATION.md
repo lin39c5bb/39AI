@@ -72,4 +72,4 @@ ny-deepseek-r1_0.2
 
 
 license：
-本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
+本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 协议共享。

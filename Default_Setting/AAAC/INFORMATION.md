@@ -33,4 +33,4 @@ description: for deepseek
 > # 我会尽力实现
 
 
- license：本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
+ license：本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 协议共享。
