@@ -22,4 +22,4 @@ description: 适用于哈基米2.5-0325、0506、0520，Claude3.5s和3.7s，deep
 小剧场美化正则：https://discord.com/channels/1134557553011998840/1374750516177010719/138328575117702359
 
 
- license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
+ license：本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。

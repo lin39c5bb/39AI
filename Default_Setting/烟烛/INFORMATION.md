@@ -19,4 +19,4 @@ https://discord.com/channels/1134557553011998840/1309053200988635197/13231694377
 
 
 
- license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
+ license：本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。

@@ -1,6 +1,13 @@
 # 39AI
-[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![CC  BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
+ 本项目采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议][cc-by-nc-nd]进行许可。
+
+ [![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
+
+ [cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+ [cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+ [cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 ***项目介绍***
 
 ***本项目包括（或将包括）预设，角色卡和一些格式性prompt的整理。***
@@ -26,7 +33,7 @@
 
 ***创作者的利益是第一位的！如果作者不希望作品出现在这个项目中，请联系我，我将第一时间撤下！
 
-本项目的license是CC BY-NC-SA 4.0。（与类脑ΟΔΥΣΣΕΙΑ和旅程ΟΡΙΖΟΝΤΑΣ的默认要求相同）
+本项目的license是CC BY-NC-ND 4.0。（与类脑ΟΔΥΣΣΕΙΑ和旅程ΟΡΙΖΟΝΤΑΣ的默认要求相同）
 
 对于本项目整理的所有作品，我将尽可能整理作者的元数据，包括用户名，发布原链接和原文。
 

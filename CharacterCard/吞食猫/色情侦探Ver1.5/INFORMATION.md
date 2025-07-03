@@ -67,4 +67,4 @@ https://media.discordapp.net/attachments/1384820862062039060/1389843375166849044
 
 
 
- license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
+ license：本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。

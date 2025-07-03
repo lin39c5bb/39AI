@@ -50,4 +50,4 @@ description: grok3 gemini 2.5 flash/pro deepseek
 最新deepseek预设获取(v0.4-ds)：https://discord.com/channels/1134557553011998840/1357303865091035218/1377629252144599181
 
 
- license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
+ license：本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。

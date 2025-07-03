@@ -64,4 +64,4 @@ R1自训练V1.1版本传送门：https://discordapp.com/channels/113455755301199
 刚入坑AI酒馆一个月，预设可能存在不完善之处，欢迎体验反馈！技术力有限还请多包涵 Orz
 
 
- license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
+ license：本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享。
