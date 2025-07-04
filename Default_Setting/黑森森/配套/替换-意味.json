@@ -1,0 +1,17 @@
+{
+    "id": "b7be40a6-379b-4181-a705-ed7c81b91bc2",
+    "scriptName": "替换-意味",
+    "findRegex": "/(意味)/g",
+    "replaceString": "{{random:氛围::气息::况味::意蕴::底色}}",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 30
+}

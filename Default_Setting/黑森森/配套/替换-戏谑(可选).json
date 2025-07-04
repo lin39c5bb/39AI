@@ -1,0 +1,17 @@
+{
+    "id": "947b831f-faad-40fb-942c-00c5220b6c9e",
+    "scriptName": "替换-戏谑(可选)",
+    "findRegex": "/(戏谑)/g",
+    "replaceString": "{{random:玩味}}",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 30
+}

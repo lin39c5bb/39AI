@@ -1,0 +1,17 @@
+{
+    "id": "4bed5948-9c5c-4bf2-96e6-73a1cdf06cbb",
+    "scriptName": "替换-不易察觉",
+    "findRegex": "/(不易察觉)/g",
+    "replaceString": "{{random:幽微::细微::隐约::难以觉察::隐晦}}",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 30
+}

@@ -1,0 +1,17 @@
+{
+    "id": "e5625691-4de3-4802-84f3-7d91736dfb00",
+    "scriptName": "替换-不容置疑",
+    "findRegex": "/(不容置疑|不容置喙)/g",
+    "replaceString": "{{random:毋庸置疑::昭然::既定::凛然}}",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 30
+}

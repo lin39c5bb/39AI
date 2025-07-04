@@ -1,0 +1,17 @@
+{
+    "id": "ef34fb76-89b9-4b9a-bf7c-b38564435a1a",
+    "scriptName": "替换-一丝",
+    "findRegex": "/(一丝丝|一丝(?!不苟))/g",
+    "replaceString": "{{random:些微::些许::一抹::一丝::一缕}}",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 30
+}

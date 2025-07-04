@@ -1,0 +1,17 @@
+{
+    "id": "20e02fa0-7b63-4dc3-9e61-e5557c20b8fe",
+    "scriptName": "消除-指尖发白系（可选）",
+    "findRegex": "/[，,](?:[^。.!?！？]*?(?:手指|指尖|指节)[^。.!?！？]*?(?:泛白|发白)[^。.!?！？]*?)(?=[。.!?！？，,])/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 30
+}
