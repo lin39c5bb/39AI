@@ -1,0 +1,19 @@
+{
+    "id": "3fa6243f-bcbf-4f99-ab51-f12091dc5836",
+    "scriptName": "隐藏思维链Plus",
+    "findRegex": "/<(think(?:ing|_format)?)>([\\s\\S]*?)<\\/\\1>|```think([\\s\\S]*?)```/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2,
+        5
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
