@@ -1,0 +1,17 @@
+{
+    "id": "827803c1-d0f5-46ee-83ca-e53a56bd7afb",
+    "scriptName": "【唐·璜】小总结2",
+    "findRegex": "([\\s\\S]*?)<Recollection>",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 10,
+    "maxDepth": null
+}

@@ -1,0 +1,17 @@
+{
+    "id": "1686c9d8-a4b9-4e58-b282-83c46b674d12",
+    "scriptName": "【唐·璜】通用消除",
+    "findRegex": "/<thinking>[\\s\\S]*?</thinking>|<advance>[\\s\\S]*?</advance>|<disclaimer>[\\s\\S]*</disclaimer>|<total>[\\s\\S]*?</total>/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
