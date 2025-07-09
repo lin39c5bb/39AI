@@ -42,4 +42,4 @@ R1-0528预设更新：云瑾 1.6
 
 
 license：
-本作品采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 协议共享。
+作者声明春瑾/夏瑾系列完全开源，随意二创，但要注明出处，有引用;禁止商用。
