@@ -1,0 +1,17 @@
+{
+    "id": "9235a3ef-6a55-4d4b-a73c-7d9dc3f3e1d7",
+    "scriptName": "只发送最近一楼选项",
+    "findRegex": "/<end_options>[\\s\\S]*?</end_options>/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 2,
+    "maxDepth": null
+}

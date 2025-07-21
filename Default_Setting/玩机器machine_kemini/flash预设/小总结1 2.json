@@ -1,0 +1,17 @@
+{
+    "id": "7ac58356-fac2-4b41-9eb1-01e73a0d15a4",
+    "scriptName": "小总结1",
+    "findRegex": "/<details>\\s*<summary>\\s*摘要\\s*<\\/summary>[\\s\\S]*?<\\/details>/gsi",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 10
+}

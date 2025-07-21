@@ -1,0 +1,17 @@
+{
+    "id": "d6c4400c-1269-402a-b014-d2532cf2b327",
+    "scriptName": "删除字数标签",
+    "findRegex": "/\\[wc:.*?\\]\\s*/gi",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

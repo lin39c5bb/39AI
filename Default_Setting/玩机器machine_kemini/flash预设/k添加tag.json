@@ -1,0 +1,17 @@
+{
+    "id": "f7544a14-49c7-467b-bc87-0cf08503948c",
+    "scriptName": "K添加tag",
+    "findRegex": "^([\\s\\S]*)$",
+    "replaceString": "<user_input>\n$1\n</user_input>",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 1
+}

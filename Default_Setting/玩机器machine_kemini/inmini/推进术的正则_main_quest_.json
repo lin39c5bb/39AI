@@ -1,0 +1,17 @@
+{
+    "id": "3aeff68c-c59e-46ac-bd26-bb26be8c16ef",
+    "scriptName": "推进术的正则<Main_Quest>",
+    "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/g",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

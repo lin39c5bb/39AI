@@ -1,0 +1,17 @@
+{
+    "id": "7acbdbfb-fb91-4241-80ff-6c65501e7797",
+    "scriptName": "INmini小总结（轮数判断）",
+    "findRegex": "/<s_runs>(.*?)<\\/s_runs>/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": false,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

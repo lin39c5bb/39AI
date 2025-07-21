@@ -1,0 +1,18 @@
+{
+    "id": "05f97756-6365-4a6a-908c-cad6219dcf57",
+    "scriptName": "INmini 抗空回删除",
+    "findRegex": "/<output_Freedom>(.*?)<\\/output_Freedom>/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

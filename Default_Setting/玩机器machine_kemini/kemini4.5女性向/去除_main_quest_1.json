@@ -1,0 +1,17 @@
+{
+    "id": "bb203b93-d503-48c6-856d-488911156acc",
+    "scriptName": "去除<Main_Quest>1",
+    "findRegex": "/<Main_Quest>[\\s\\S]*?<\\/Main_Quest>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 2,
+    "maxDepth": null
+}

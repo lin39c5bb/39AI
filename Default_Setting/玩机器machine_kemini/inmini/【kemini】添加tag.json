@@ -1,0 +1,17 @@
+{
+    "id": "32e16514-f6c4-4c4e-a341-dbd988563206",
+    "scriptName": "【Kemini】添加tag",
+    "findRegex": "^([\\s\\S]*)$",
+    "replaceString": "<user_input>\n$1\n</user_input>",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 1
+}

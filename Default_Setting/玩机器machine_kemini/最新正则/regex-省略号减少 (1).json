@@ -1,0 +1,17 @@
+{
+    "id": "08b4db64-0d0c-4faa-8399-10b7cc6f915b",
+    "scriptName": "省略号减少",
+    "findRegex": "/([\\u4e00-\\u9fa5])(?:…|……)(\\1)|(?:…|……)/g",
+    "replaceString": "$1",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 1,
+    "minDepth": null,
+    "maxDepth": null
+}

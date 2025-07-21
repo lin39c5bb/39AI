@@ -1,0 +1,17 @@
+{
+    "id": "9ba5877a-fc82-41dd-b713-81ca34d10337",
+    "scriptName": "flash补充正则",
+    "findRegex": "/^[\\s\\S]*</guifan>/",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}

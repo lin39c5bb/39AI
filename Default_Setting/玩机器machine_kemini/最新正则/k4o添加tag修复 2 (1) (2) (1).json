@@ -1,0 +1,17 @@
+{
+    "id": "2f7578be-fdf7-4105-bb6e-2bf8b4a7fb1b",
+    "scriptName": "K4o添加tag修复",
+    "findRegex": "^([\\s\\S]*)$",
+    "replaceString": "<interactive_input>\n$1\n</interactive_input>",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 1
+}

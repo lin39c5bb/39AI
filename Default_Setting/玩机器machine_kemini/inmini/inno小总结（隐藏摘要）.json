@@ -1,0 +1,17 @@
+{
+    "id": "d6da4d2a-3d2c-44b2-a728-0a56bd6f4f09",
+    "scriptName": "INno小总结（隐藏摘要）",
+    "findRegex": "/<summary_plot>\\s*<details>\\s*<summary>\\s*\\*\\*故事梗概\\*\\*\\s*<\\/summary>[\\s\\S]*?<\\/details>\\s*<\\/summary_plot>/gsi",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": 9
+}

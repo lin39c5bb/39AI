@@ -1,0 +1,17 @@
+{
+    "id": "aaefa4ac-dd15-4ae7-b5fb-4365efd29a28",
+    "scriptName": "小总结2",
+    "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 11,
+    "maxDepth": null
+}
