@@ -1,0 +1,17 @@
+{
+    "id": "69349fc0-de6f-40d2-a0e6-99b411729047",
+    "scriptName": "仅保留总结2",
+    "findRegex": "/[\\s\\S]*?<This_round_events>([\\s\\S]*?)<\\/This_round_events>([\\s\\S]*)/gm",
+    "replaceString": "<!--\n<This_round_events>$1</This_round_events>\n-->",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 3,
+    "maxDepth": null
+}
