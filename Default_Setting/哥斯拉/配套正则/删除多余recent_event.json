@@ -1,0 +1,17 @@
+{
+    "id": "7f32740e-3f51-4fcb-97e8-3a25a2206e55",
+    "scriptName": "删除多余recent_event",
+    "findRegex": "/<recent_event>[\\s\\S]*<\\/recent_event>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 3,
+    "maxDepth": null
+}

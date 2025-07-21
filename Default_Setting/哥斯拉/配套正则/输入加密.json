@@ -1,0 +1,17 @@
+{
+    "id": "4f24bc46-b7a5-40c8-8f18-db8659254d07",
+    "scriptName": "输入加密",
+    "findRegex": "([^\\n]+)",
+    "replaceString": "{{reverse: $1}}",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 2,
+    "minDepth": null,
+    "maxDepth": null
+}

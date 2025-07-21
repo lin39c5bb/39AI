@@ -1,0 +1,17 @@
+{
+    "id": "3411875e-ab85-4ba5-b54a-d06d9b35d63e",
+    "scriptName": "con",
+    "findRegex": "/<content>[\\s\\S]*?</content>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": false,
+    "minDepth": null,
+    "maxDepth": null
+}

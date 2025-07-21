@@ -1,0 +1,17 @@
+{
+    "id": "09a7dda2-d64c-4880-9ccf-794b90f92f5f",
+    "scriptName": "删除<thinking>",
+    "findRegex": "/<thinking>[\\s\\S]*?</thinking>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": false,
+    "substituteRegex": false,
+    "minDepth": null,
+    "maxDepth": null
+}

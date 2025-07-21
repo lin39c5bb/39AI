@@ -1,0 +1,18 @@
+{
+    "id": "212b3625-be98-49a8-a953-483b99345e35",
+    "scriptName": "置空70楼之前楼层",
+    "findRegex": "/[\\s\\S]*/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        1,
+        2
+    ],
+    "disabled": true,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 2,
+    "minDepth": 70,
+    "maxDepth": null
+}

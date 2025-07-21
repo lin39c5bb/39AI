@@ -1,0 +1,17 @@
+{
+    "id": "f418f84f-8c59-4946-a2c0-b5d0f39691d8",
+    "scriptName": "删除声明",
+    "findRegex": "/<disclaimer>[\\s\\S]*</disclaimer>/gm",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": null,
+    "maxDepth": null
+}
