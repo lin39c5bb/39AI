@@ -21,4 +21,4 @@ user的青梅竹马鱼早早，是一个活生生的悖论。她有着银发粉�
 预览不是卡
 
 
- license：本作品采用 [CC BY-NC-NA 4.0](https://creativecommons.org/licenses/by-nc-na/4.0/) 协议>共享。
+ license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议>共享。

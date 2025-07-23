@@ -28,4 +28,4 @@ https://discord.com/channels/1134557553011998840/1386037986160017528这是女性
 封面就是卡，祝大家玩得愉快
 
 
- license：本作品采用 [CC BY-NC-NA 4.0](https://creativecommons.org/licenses/by-nc-na/4.0/) 协议>共享。
+ license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议>共享。

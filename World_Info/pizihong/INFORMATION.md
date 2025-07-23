@@ -9,4 +9,4 @@ description: 涩涩用世界书
 效果展示:
 
 
- license：本作品采用 [CC BY-NC-NA 4.0](https://creativecommons.org/licenses/by-nc-na/4.0/) 协议>共享。
+ license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议>共享。

@@ -34,4 +34,4 @@ NSFW：2个女儿全力讨好你争宠
 封面不是卡
 
 
- license：本作品采用 [CC BY-NC-NA 4.0](https://creativecommons.org/licenses/by-nc-na/4.0/) 协议>共享。
+ license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议>共享。

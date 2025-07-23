@@ -41,4 +41,4 @@ cot：无
 最新世界书：
 https://discord.com/channels/1134557553011998840/1375455438681673758/1380768292934914138
 
- license：本作品采用 [CC BY-NC-NA 4.0](https://creativecommons.org/licenses/by-nc-na/4.0/) 协议>共享。
+ license：本作品采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议>共享。
